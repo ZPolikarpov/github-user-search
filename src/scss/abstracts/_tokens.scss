@@ -70,41 +70,32 @@ $container-max-width: 45.625rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
-// site header
-$site-header-background-color: $color-primary-300;
-$site-header-color: $color-neutral-900;
-$site-header-padding: $size-8 0;
-$site-header-margin: 0;
-$site-header-jusitifcation-small-screens: center;
-$site-header-jusitifcation-large-screens: space-between;
-$site-header-alignment: center;
-
 // buttons
 $button-font-family: $body-font-family;
 $button-font-size: $font-size-400;
 $button-font-weight: $font-weight-bold;
-$button-text-transform: uppercase;
-$button-padding: 0.75em 2em;
+$button-text-transform: none;
+$button-padding: 0.825em 1em;
 $button-border: 0;
 $button-border-radius: $border-radius-1;
 
-$button-accent-color: $color-neutral-100;
-$button-accent-background: $color-accent-400;
-$button-accent-color-hover: $color-neutral-100;
-$button-accent-background-hover: $color-accent-500;
-$button-primary-color: $color-neutral-100;
-$button-primary-background: $color-primary-700;
-$button-primary-color-hover: $color-neutral-100;
-$button-primary-background-hover: $color-primary-800;
+$button-accent-color: $color-primary-600;
+$button-accent-background: transparent;
+$button-accent-color-hover: $color-neutral-700;
+$button-accent-background-hover: transparent;
+$button-primary-color: $color-neutral-000;
+$button-primary-background: $color-primary-400;
+$button-primary-color-hover: $color-neutral-000;
+$button-primary-background-hover: $color-primary-200;
 
 // cards
-$card-flow-spacing: $size-2;
-$card-padding: $size-8;
+$card-flow-spacing: $size-6;
+$card-padding: $size-8 $size-6;
 $card-shadow: $box-shadow-1;
 $card-border-radius: $border-radius-2;
-$card-background-default: $color-primary-100;
+$card-background-default: $color-neutral-000;
 $card-color-default: $body-text-color;
 $card-font-family: $body-font-family;
-$card-line-height: 1.25;
+$card-line-height: 1;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;

@@ -1,11 +1,14 @@
 // global color tokens
-// light mode
+//immutable
+$-clr-blue-200: #60abff;
 $-clr-blue-400: #0079ff;
+// light mode
 $-clr-bluegray-500: #697c9a;
 $-clr-bluegray-600: #4b6a9b;
 $-clr-gray-400: #f6f8ff;
 $-clr-gray-800: #2b3442;
 $-clr-white-100: #fefefe;
+$-clr-black-700: #222731;
 // dark mode
 $-clr-white-000: #ffffff;
 $-clr-blue-900: #141d2f;
@@ -16,8 +19,10 @@ $light: (
     "000": $-clr-white-000,
     "100": $-clr-white-100,
     "400": $-clr-gray-400,
+    "700": $-clr-black-700,
   ),
   "primary": (
+    "200": $-clr-blue-200,
     "400": $-clr-blue-400,
     "500": $-clr-bluegray-500,
     "600": $-clr-bluegray-600,
@@ -30,8 +35,10 @@ $dark: (
     "000": $-clr-white-000,
     "100": $-clr-white-100,
     "400": $-clr-gray-400,
+    "700": $-clr-black-700,
   ),
   "primary": (
+    "200": $-clr-blue-200,
     "400": $-clr-blue-400,
     "500": $-clr-bluegray-500,
     "600": $-clr-bluegray-600,
@@ -43,7 +50,9 @@ $dark: (
 $color-neutral-000: var(--neutral-000);
 $color-neutral-100: var(--neutral-100);
 $color-neutral-400: var(--neutral-400);
+$color-neutral-700: var(--neutral-700);
 
+$color-primary-200: var(--primary-200);
 $color-primary-400: var(--primary-400);
 $color-primary-500: var(--primary-500);
 $color-primary-600: var(--primary-600);
